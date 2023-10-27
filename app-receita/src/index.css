@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.card-container:nth-last-child(1) {
+  margin-bottom:200px;
+}
+.card-container:nth-child(1) {
+  margin-top:15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  box-shadow: 2px 4px 7px 3px #ccc;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-id {
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.card-name {
+  font-weight: bolder;
+  text-align: center;
+  color: darkgreen;
+  font-size: 20px;
+  margin: center;
+  margin-top: 15px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  text-align: center;
+  box-shadow: 1px 2px 3px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  font-size: large;
+  margin: auto;
+  width: 80%;
+  height: 50vh;
+}
+.login-form h3 {
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.login-form button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 15px;
+  width: 50%;
+}
+
+.email-pass {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 80%;
+  height: 20vh;
+  gap: 10px;
+}
+
+.email-pass input {
+  box-shadow: 1px 1.5px 2px 2px rgba(60, 109, 121, 0.329); 
+  border-radius: 4px;
+  border: none;
+  font-size: large;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+.meals-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-height: 640px;
+  top: 80px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.meals-container h1 {
+  position: fixed;
+  top: 20px;
+  left: 35%;
+}
+
+.profile-search {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.search-i-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1px;
+}
+
+.radios-container {
+  opacity: 0.8;
+  background-color: rgb(220, 227, 228);
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  box-shadow: 1px 1.5px 2px 2px rgba(60, 109, 121, 0.329);
+}
+.search-input {
+  opacity: 0.8;
+  padding: 8px;
+  font-size: large;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1.5px 3px 3px rgba(39, 69, 77, 0.329);
+  margin: 5px 2px;
+}
+
+.radios-container button {
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 15px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding: 5px;
+}
+
+.radio:nth-child(2) {
+  width: 20%;
+}
