@@ -1,1 +1,1 @@
-# App-de-receitas
+# Recipe app
